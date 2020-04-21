@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:firebase_messaging/firebase_messaging.dart' as Firebase;
 import 'package:flutter_apns/connector.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart' hide MessageHandler;
@@ -32,6 +33,7 @@ class ApnsPushConnector extends PushConnector {
     MessageHandler onLaunch,
     MessageHandler onResume,
     MessageHandler onBackgroundMessage,
+    Firebase.FirebaseOptions options,
   }) {
     _onMessage = onMessage;
     _onLaunch = onLaunch;

@@ -1,3 +1,4 @@
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 
 typedef Future<dynamic> MessageHandler(Map<String, dynamic> message);
@@ -13,6 +14,7 @@ abstract class PushConnector {
     MessageHandler onLaunch,
     MessageHandler onResume,
     MessageHandler onBackgroundMessage,
+    FirebaseOptions options,
   });
 
   void requestNotificationPermissions();
