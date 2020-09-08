@@ -17,7 +17,7 @@ class HuaweiPushConnector extends PushConnector {
   final isDisabledByUser = ValueNotifier(false);
 
   @override
-  void configure({onMessage, onLaunch, onResume, onBackgroundMessage}) async {
+  void configure({onMessage, onLaunch, onResume, onBackgroundMessage, options}) async {
 
     TokenEventChannel.receiveBroadcastStream()
         .listen((event){
