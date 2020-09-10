@@ -86,9 +86,11 @@ packages:
   huawei_push:
     dependency: "direct main"
     description:
-      name: huawei_push
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: flutter-hms-push
+      ref: HEAD
+      resolved-ref: "39ce0ee4cbab1537bde9d0a46ca2eac4ac0188f0"
+      url: "https://github.com/silentchee/hms-flutter-plugin.git"
+    source: git
     version: "4.0.4+300"
   image:
     dependency: transitive
