@@ -88,7 +88,7 @@ packages:
     description:
       path: flutter-hms-push
       ref: HEAD
-      resolved-ref: "39ce0ee4cbab1537bde9d0a46ca2eac4ac0188f0"
+      resolved-ref: "952269e661ddb3afd56252622a40a5704cee8100"
       url: "https://github.com/silentchee/hms-flutter-plugin.git"
     source: git
     version: "4.0.4+300"
