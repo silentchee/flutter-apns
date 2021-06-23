@@ -16,10 +16,10 @@ dependencies:
       ref: dynamic_firebase_configuration
       path: packages/firebase_messaging
   # huawei_push: 
-  huawei_push: 
-    git: 
-      url: https://github.com/silentchee/hms-flutter-plugin.git
-      path: flutter-hms-push
+  # huawei_push: 
+  #   git: 
+  #     url: https://github.com/silentchee/hms-flutter-plugin.git
+  #     path: flutter-hms-push
   google_api_availability: ^2.0.4
 
 
